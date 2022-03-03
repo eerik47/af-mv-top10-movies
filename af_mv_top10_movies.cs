@@ -85,7 +85,7 @@ namespace Company.Function
                         while (resultSet.HasMoreResults)
                         {
                             var movieCount = (await resultSet.ReadNextAsync()).FirstOrDefault();
-
+//Comment EEC
                             if (movieCount == null)
                             {
                                 //todo: Add new doc code here
