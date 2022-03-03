@@ -27,12 +27,12 @@ namespace Company.Function
             Id = Guid.NewGuid().ToString();
         }
     }
-    public static class mv_categories_processor
+    public static class af_mv_top10_movies
     {
 
 
         
-        [FunctionName("mv_categories_processor")]
+        [FunctionName("af_mv_top10_movies")]
         public static async Task Run([CosmosDBTrigger(
             databaseName: "czcontosomigration",
             collectionName: "RealtimeOrders",
