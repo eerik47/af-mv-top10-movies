@@ -1,0 +1,75 @@
+{
+  "Region": "Region1",
+  "OrderDate": "2022-03-02T13:55:15.0681589Z",
+  "FirstName": "Walter",
+  "LastName": "Pang",
+  "Address": "73 Rocky Road",
+  "City": "Carson",
+  "State": "Idaho",
+  "PostalCode": "05844",
+  "Country": "United States",
+  "Phone": "717-555-5992",
+  "SMSOptIn": false,
+  "SMSStatus": "",
+  "Email": "mixaction@contosomovies.com",
+  "ReceiptUrl": "",
+  "Total": 10.94,
+  "PaymentTransactionId": "",
+  "HasBeenShipped": false,
+  "Details": [
+    {
+      "Email": "mixaction@contosomovies.com",
+      "ProductId": 397519,
+      "Quantity": 1,
+      "UnitPrice": 10.94
+    }
+  ],
+  "EventProcessedUtcTime": "2022-03-02T13:55:15.1630759Z",
+  "PartitionId": 0,
+  "EventEnqueuedUtcTime": "2022-03-02T13:55:15.086Z",
+  "id": "3bd2137c-f0b7-4299-ba3c-a5c5e3348e50",
+  "_rid": "fccsAJThOOSYigUAAAAAAA==",
+  "_self": "dbs/fccsAA==/colls/fccsAJThOOQ=/docs/fccsAJThOOSYigUAAAAAAA==/",
+  "_etag": "\"c6003e43-0000-0c00-0000-621f77430000\"",
+  "_attachments": "attachments/",
+  "_ts": 1646229315,
+  "_lsn": 100030
+}
+Output to CosmosDB
+{
+  "Region": "Region1",
+  "OrderDate": "2022-03-02T13:55:15.1107307Z",
+  "FirstName": "Emily",
+  "LastName": "Baker",
+  "Address": "2120 Figuroa Parkway",
+  "City": "Alexandria",
+  "State": "Texas",
+  "PostalCode": "69433",
+  "Country": "United States",
+  "Phone": "201-555-4983",
+  "SMSOptIn": false,
+  "SMSStatus": "",
+  "Email": "mixcomedy@contosomovies.com",
+  "ReceiptUrl": "",
+  "Total": 5.06,
+  "PaymentTransactionId": "",
+  "HasBeenShipped": false,
+  "Details": [
+    {
+      "Email": "mixcomedy@contosomovies.com",
+      "ProductId": 397522,
+      "Quantity": 1,
+      "UnitPrice": 5.06
+    }
+  ],
+  "EventProcessedUtcTime": "2022-03-02T13:55:15.1630759Z",
+  "PartitionId": 0,
+  "EventEnqueuedUtcTime": "2022-03-02T13:55:15.133Z",
+  "id": "fbfb35f3-b960-4e3c-ab90-5610d88193e9",
+  "_rid": "fccsAJThOOSZigUAAAAAAA==",
+  "_self": "dbs/fccsAA==/colls/fccsAJThOOQ=/docs/fccsAJThOOSZigUAAAAAAA==/",
+  "_etag": "\"c6003f43-0000-0c00-0000-621f77430000\"",
+  "_attachments": "attachments/",
+  "_ts": 1646229315,
+  "_lsn": 100030
+}
